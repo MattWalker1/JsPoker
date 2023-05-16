@@ -71,7 +71,7 @@ function showAlert(status, message, player) {
 
 function evaluateHand(iteration) {
     countingIterations = iteration;
-    if (replaceAttempts === 0) {/*trying to fix a bug that keeps these hiiden*/
+    if (replaceAttempts === 0) {/*trying to fix a bug that keeps these hidden*/
         [].forEach.call(document.querySelectorAll("span.badge[data-replace]"), function (e) {
             e.classList.remove("hide");
         });
